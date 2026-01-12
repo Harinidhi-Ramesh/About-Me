@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'DM Sans';
+}
+
+/*navbar*/
+nav{
+    background: #f3e8d7;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-name{
+    font-weight: bold;
+    font-size: 20px;
+    color: #5b4636;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar a{
+    color: #5b4636;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.upper{
+    background: #f3e8d7;
+    display: flex;
+    align-items: center;
+    padding: 30px 10px;
+    gap: 40px;
+}
+
+.profile{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 150px;
+}
+
+.upper-text{
+    margin-right: 150px;
+}
+
+.upper-text h1{
+    font-family: 'Cormorant Garamond';
+    font-style: italic;
+    font-weight: 400;
+    color: #5b4636;
+    font-size: 50px;
+}
+
+.upper-text p{
+    color: #6b5a4a;
+    font-size: 20px;
+}
+
+.lower{
+    background: #2b1f18;
+    padding: 10px;
+    color: white;
+}
+
+.lower h2{
+    font-size: 50px;
+    font-family: 'DM Sans';
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card img{
+    width: 250px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.email-row{
+    display: flex;
+    justify-content: center;
+}
+
+.gmail-pill{
+   background: #5b4636;
+   color: #f3e8d7;
+   padding: 12px;
+   font-size: 12px;
+   align-items: center;
+   border-radius: 50px;
+   text-decoration: none;
+}
